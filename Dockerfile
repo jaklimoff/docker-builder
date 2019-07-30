@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:git
 ENV PYTHONUNBUFFERED 1
 
 RUN apk update
